@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montenegrin+Gothic+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+h1{
+    font-size: 50px;
+    color: blue;
+    position: relative;
+    top: 100px;
+    left: 60px;
+    font-family: Oswald, sans-serif;
+    font-size: 80px;
+    display: block;
+    width: 560px;
+    height: 70px
+    
+}
+p{
+    position: relative;
+    top: 300px;
+    left: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+    width: 632px;
+}
+#start-date{
+    position: relative;
+    top: 400px;
+    left: 60px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-style: dashed;
+    border-bottom: 4px dashed yellow;
+
+    color: white;
+    letter-spacing: 10px;
+    width: 237px;
+}
+body{
+    background-image: url("./image 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.layer{
+width: 100vw;
+height: 100vh;
+position: absolute;
+top: 0;
+left: 0;
+background-color: rgba(137, 43, 226, 0.453);
+z-index: -1;
+}
+header {
+display: flex;
+justify-content: space-around;
+padding: 20px;
+color:white;
+}
+
+i{
+display: none !important;
+}
+img{
+    border-radius: 50%;
+}
+@media screen and (max-width: 768px){
+i{
+    display: block !important;
+
+}
+header{
+justify-content: end;
+}
+ header span, img{
+    display: none;
+}
+  body{
+    background-image: cover;
+        background-size: cover;
+        background-position: center;
+        background-color: rgba(100, 50, 150, 0.5);
+    }
+
+}
